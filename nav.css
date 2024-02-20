@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  width: 20%;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+}
+
+.notify {
+  background: yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.selected {
+  background: orange;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 20px;
+}
+.menu {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+}
+
+li {
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.gray {
+  color: gray;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.other {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+}
+
+.uzytkownik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 25px;
+  gap: 5px;
+}
+
+.openprofile {
+  padding: 5px;
+  background: rgb(234, 234, 234);
+  border-radius: 25px;
+  width: 100%;
+}
+
+.uzytkownik > img {
+  width: 50px;
+  border-radius: 50%;
+}
+body > nav {
+}

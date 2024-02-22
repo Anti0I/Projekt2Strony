@@ -7,24 +7,22 @@ body {
 nav {
   display: flex;
   background-color: rgb(253, 253, 253);
-  width: 20%;
+  width: 25%;
   flex-direction: column;
-  height: 100vh;
+  height: 95vh;
   gap: 20px;
   padding-left: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
   padding-right: 50px;
   justify-content: space-between;
 }
 
 .notify {
   background: yellow;
-  width: 30px;
-  height: 30px;
+  padding: 1vh;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 
 .selected {

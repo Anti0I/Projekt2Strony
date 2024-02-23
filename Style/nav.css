@@ -9,17 +9,17 @@ nav {
   background-color: rgb(253, 253, 253);
   width: 25%;
   flex-direction: column;
-  height: 95vh;
-  gap: 20px;
-  padding-left: 50px;
+  height: 100vh;
+  gap: 0.1rem;
+  padding-left: 3rem;
   position: sticky;
   top: 0;
   left: 0;
-  padding-right: 50px;
+  padding-right: 3rem;
   justify-content: space-between;
 }
 
-.notify {
+.notifications {
   background: yellow;
   padding: 1vh;
   border-radius: 50%;
@@ -33,19 +33,19 @@ nav {
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .menu {
   display: flex;
   align-content: center;
   flex-direction: column;
   list-style: none;
-  gap: 30px;
+  gap: 2rem;
 }
 
 li {
-  padding: 5px;
-  border-radius: 25px;
+  padding: 0.3125rem;
+  border-radius: 1.5625rem;
 }
 
 .gray {
@@ -56,7 +56,7 @@ a {
   display: flex;
   align-items: center;
   align-content: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .other {
@@ -64,7 +64,7 @@ a {
   align-content: center;
   flex-direction: column;
   list-style: none;
-  gap: 30px;
+  gap: 2rem;
 }
 
 .uzytkownik {
@@ -73,19 +73,41 @@ a {
   align-items: center;
   flex-direction: column;
   background: rgb(255, 255, 255);
-  padding: 10px;
+  padding: 0.3125rem;
   border-radius: 25px;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 
 .openprofile {
-  padding: 5px;
+  padding: 0.3125rem;
   background: rgb(234, 234, 234);
   border-radius: 25px;
   width: 100%;
 }
 
 .uzytkownik > img {
-  width: 50px;
+  width: 3rem;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 1300px) {
+  nav {
+    width: 25vw;
+    padding: 0;
+  }
+  .logo {
+    padding: 1rem;
+  }
+  .menu,
+  .other {
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+  }
+  .uzytkownik {
+    display: none;
+  }
+  .waga {
+    display: none;
+  }
 }

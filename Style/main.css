@@ -1,3 +1,9 @@
+:root {
+  --price: orange;
+  --text-color: black;
+  --color-2: gray;
+}
+
 .bar {
   display: flex;
   flex-direction: row;
@@ -11,7 +17,7 @@
 }
 
 .back {
-  background: gray;
+  background: var(--color-2);
   padding: 0.7rem;
   border-radius: 10px;
 }
@@ -21,7 +27,7 @@
   align-items: center;
   gap: 1vw;
   margin-left: 3.125rem;
-  background: gray;
+  background: var(--color-2);
   color: white;
   padding: 0.5rem;
   border-radius: 10px;
@@ -33,7 +39,7 @@
 
 .producty {
   display: flex;
-  max-height: ;
+  /* max-height: ; */
   width: 100%;
   /* justify-content: center; */
   align-items: center;
@@ -54,9 +60,13 @@
   height: 30vh;
 }
 
+.produkt > h1 {
+  color: var(--text-color);
+}
+
 .price {
   font-size: 1.7rem;
-  color: orange;
+  color: var(--price);
   font-weight: 700;
 }
 
